@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  /* Per the mock exapmle I got as close to the colors as possible */
+  background: linear-gradient(to right, #ffce00, #ff9D00, #ff6701);
+  background-attachment: fixed;
+  color: black;
+}
+
+.search-container {
+ width: 500px;
+ margin: 200px auto 0;
+ border-radius: 6px;
+ background: #ffa700;
+}
+
+.search-container .search-bar {
+background: #FFAE42;
+ border-style: solid;
+ border-radius: 6px;
+ border-width: 2px;
+ border-color:  #ff6701;
+}
+
+input {
+  flex: center;
+  height: 50px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  color:#333;
+ }
+
+::placeholder {
+  color: #555;
+}
+
+ ul {
+   padding: 20px 15px;
+}
+
+li {
+  list-style: none;
+  border-radius: 3px;
+  padding: 20px 15px;
+  cursor: pointer;
+  text-align: center;
+  
+   }
+  
+ ul li:hover {
+  background: #Dc4D01;
+
+}
+
+.suggestions {
+  max-height: 300px;
+  overflow-y: auto;
+}
